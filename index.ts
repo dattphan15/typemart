@@ -2,6 +2,11 @@ import products from './products';
 
 const productName: string = "fanny pack";
 const preSale: string = "true";
+let shipping: number;
+let taxPercent: number;
+let taxTotal: number;
+let total: number;
+const shippingAddress: string = '575 Broadway, New York City, New York';
 
 const product = products.filter(product => {
 
