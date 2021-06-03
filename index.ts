@@ -21,6 +21,10 @@ const product = products.filter(product => {
       shipping = 5;
       console.log("Shipping is $5")
     }
+    if (shippingAddress.match('New York')) {
+      taxPercent = 0.1;
+      console.log("We found New York")
+    }
     return product;
   }
 
